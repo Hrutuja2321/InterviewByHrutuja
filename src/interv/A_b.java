@@ -30,6 +30,8 @@ public class A_b
 
 		WebDriver drive= new ChromeDriver();
 		
+		System.out.println("");
+		
 		drive.get("https://nichethyself.com/tourism/home.html");
 		drive.manage().window().maximize();
 		drive.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
